@@ -1,0 +1,45 @@
+{
+  "name": "klp-dsv",
+  "version": "0.1.0",
+  "description": "",
+  "keywords": [
+    "klp",
+    "kelpie",
+    "json",
+    "csv",
+    "ssv",
+    "tsv",
+    "dsv",
+    "data-processing",
+    "deserializer",
+    "parser",
+    "serializer",
+    "marshaller"
+  ],
+  "homepage": "https://github.com/Yord/klp-dsv",
+  "bugs": {
+    "url": "https://github.com/Yord/klp/issues"
+  },
+  "license": "MIT",
+  "author": "Philipp Wille <philipp.y.wille@gmail.com> (https://github.com/Yord)",
+  "contributors": [
+    "Philipp Wille <philipp.y.wille@gmail.com> (https://github.com/Yord)"
+  ],
+  "main": "./index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Yord/klp-dsv.git"
+  },
+  "scripts": {
+    "start": "./index.js",
+    "test": "jest --ci --coverage --collectCoverageFrom 'src/**/*.js' --logHeapUsage --passWithNoTests"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "private": false,
+  "devDependencies": {
+    "fast-check": "2.13.0",
+    "jest": "26.6.3"
+  }
+}
